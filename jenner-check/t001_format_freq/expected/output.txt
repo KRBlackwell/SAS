@@ -1,0 +1,19 @@
+                                                   The FREQ Procedure
+
+                                          Cumulative    Cumulative
+nums            Frequency    Percent     Frequency      Percent
+---------------------------------------------------------------------
+1: cat                  1     20.00            1        20.00
+2: dog                  1     20.00            2        40.00
+3: bird                 1     20.00            3        60.00
+4: dinosaur             1     20.00            4        80.00
+other animal            1     20.00            5       100.00
+                                                   The FREQ Procedure
+
+                                          Cumulative    Cumulative
+year            Frequency    Percent     Frequency      Percent
+---------------------------------------------------------------------
+.                       1     11.11            1        11.11
+pre-90s                 2     22.22            3        33.33
+nineties                4     44.44            7        77.78
+2k and later            2     22.22            9       100.00

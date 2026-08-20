@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_format_freq",
+  "source_file": "beginner-SAS-examples.sas",
+  "source_blob_sha": "1ede86d74fd7686ed476977605bae39c2ec536cf",
+  "source_commit": "ff9cdd72e14141cc38af0db07522a3432ebea659",
+  "notes": "Custom PROC FORMAT (animal./yesno./years.) applied to PROC FREQ tables from the beginner-SAS-examples.sas walkthrough; data is the author's own inline DATALINES (unchanged). No substitution needed beyond isolating this section from the larger file."
+}

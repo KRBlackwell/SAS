@@ -1,0 +1,7 @@
+{
+  "bundle": "t002_macro_title",
+  "source_file": "beginner-SAS-examples.sas",
+  "source_blob_sha": "1ede86d74fd7686ed476977605bae39c2ec536cf",
+  "source_commit": "ff9cdd72e14141cc38af0db07522a3432ebea659",
+  "notes": "Macro-variable-in-title walkthrough (%let name=Sam; title1 \"&name &sysdate ...\") plus PROC PRINT with WHERE, from the author's own inline DATALINES. Verified reproducible via two POSTs before pinning &sysdate's rendered value in the snapshot. No data substitution needed; only isolated from the larger source file."
+}

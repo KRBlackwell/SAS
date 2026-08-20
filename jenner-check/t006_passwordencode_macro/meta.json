@@ -1,0 +1,7 @@
+{
+  "bundle": "t006_passwordencode_macro",
+  "source_file": "databaseConnection.sas",
+  "source_blob_sha": "515979d5a07f3a1001fd423fcce019192fe10064",
+  "source_commit": "ff9cdd72e14141cc38af0db07522a3432ebea659",
+  "notes": "The %passwordencode macro body is unmodified from the author's file (PROC PWENCODE -> read the encoded fileref back via CALL SYMPUT). Substitution: the original call used a real network path placeholder ('MY SECURE FOLDER PATH WHERE MACROS GO') that doesn't exist here, so the caller passes a relative path instead, and the caller adds %global myencryptedpassword; before invoking - required per SAS 9.4 macro-scoping rules because CALL SYMPUT inside a macro WITH PARAMETERS defaults to that macro's local symbol table (confirmed against SAS docs; not a Jenner engine gap - this is a live-repo teaching point in the note, not the diagnosed bug filed separately). The macro's own %dbconnect_pw_2019 companion (live OLEDB connection to a production SQL Server) is not included - it requires a real database driver/network connection with no reasonable mock substitution."
+}

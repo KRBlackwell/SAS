@@ -1,0 +1,9 @@
+libname
+-------
+SASHELP
+WORK
+libname  memname   name    type  length
+-------  --------  ------  ----  ------
+WORK     SUMGROUP  groups  char       8
+WORK     SUMGROUP  name    char       8
+WORK     SUMGROUP  count   num        8

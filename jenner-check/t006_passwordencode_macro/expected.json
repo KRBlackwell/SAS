@@ -1,0 +1,13 @@
+{
+  "_captured_at": "2026-08-20T07:55:00Z",
+  "_captured_run_id": "self-check pass, reproducible across 2 POSTs",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: The encoded password was written to fileref MYPASS.",
+    "NOTE: Wrote getpwd (1 rows, 1 columns).",
+    "NOTE: encoded value is {sas001}cGFzc3dvcmQxMjM0"
+  ],
+  "log_does_not_contain": ["ERROR:", "[JENNER-ERROR", "WARNING:"],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}

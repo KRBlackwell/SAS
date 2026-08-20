@@ -1,0 +1,7 @@
+                                         Sam 01JAN20 some SAS code created 2013
+                                                   isn't that great?
+
+
+  Obs  id    name
+    1   1  Nelson
+    4   4  Yo-yo

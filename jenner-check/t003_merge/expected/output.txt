@@ -1,0 +1,16 @@
+                           notice what happens when one dataset doesn't have data for a case
+
+  Obs  nums    name  score  year  rucool  theyear  cat
+    1     1  Nelson    100  1998       2        1    1
+    2     2  Bach       97  1995       2        1    2
+    3     3  Ludwig     50  2000       1        2    .
+    4     4  Yo-yo     100  2011       1        2    1
+    5     6              .     .       .        .    2
+
+                            only the first two rows are printed because of the (obs=2) code
+
+nums    name  score  year  rucool  theyear  cat
+   1  Nelson    100  1998       2        1    1
+   2  Bach       97  1995       2        1    2
+
+... 3 more observations (showing 2 of 5)

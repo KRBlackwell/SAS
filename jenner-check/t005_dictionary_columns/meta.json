@@ -1,0 +1,7 @@
+{
+  "bundle": "t005_dictionary_columns",
+  "source_file": "proc-sql.sas",
+  "source_blob_sha": "1d58c27adf07545afc68a3e2568cd2b615426d3e",
+  "source_commit": "ff9cdd72e14141cc38af0db07522a3432ebea659",
+  "notes": "dictionary.columns metadata query technique from the author's own comment ('a common way I use it is with proc sql'). Substitution: the original 'libname edit = $EDIT' pointed at a Windows-only env-var path with no accessible target; swapped for a query against the WORK library populated by this bundle's own data step, preserving the exact dictionary.columns query shape (libname/memname/name/type/length select-list) the author wrote."
+}
