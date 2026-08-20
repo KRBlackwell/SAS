@@ -1,0 +1,7 @@
+{
+  "bundle": "t004_sql_summary",
+  "source_file": "proc-sql.sas",
+  "source_blob_sha": "1d58c27adf07545afc68a3e2568cd2b615426d3e",
+  "source_commit": "ff9cdd72e14141cc38af0db07522a3432ebea659",
+  "notes": "GROUP BY counts, WHERE...IN, and the 'select ... into :macrovar' pattern the author calls out by name in a comment ('I use the following a lot'), using the author's own inline DATALINES. No substitution needed; isolated the counts/rowcheck section from the file's trailing dictionary.columns section (which needed a libname substitution and ships separately as t005)."
+}

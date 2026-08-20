@@ -1,0 +1,13 @@
+{
+  "_captured_at": "2026-08-20T07:47:00Z",
+  "_captured_run_id": "r_t003_merge_selfcheck",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote merged (5 rows, 7 columns).",
+    "NOTE: PROC PRINT completed: 5 observations printed, 7 variables",
+    "NOTE: PROC PRINT completed: 2 observations printed, 7 variables"
+  ],
+  "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}

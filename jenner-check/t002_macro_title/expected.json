@@ -1,0 +1,13 @@
+{
+  "_captured_at": "2026-08-20T07:42:00Z",
+  "_captured_run_id": "confirmed reproducible across two POSTs",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote example (4 rows, 5 columns).",
+    "NOTE: Option TITLE2 changed to isn't that great?.",
+    "NOTE: PROC PRINT completed: 2 observations printed, 2 variables"
+  ],
+  "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}

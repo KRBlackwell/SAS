@@ -1,0 +1,7 @@
+{
+  "bundle": "t003_merge",
+  "source_file": "beginner-SAS-examples.sas",
+  "source_blob_sha": "1ede86d74fd7686ed476977605bae39c2ec536cf",
+  "source_commit": "ff9cdd72e14141cc38af0db07522a3432ebea659",
+  "notes": "The merging walkthrough: proc sort by a shared renamed key + a one-to-one merge, demonstrating the author's own commentary about full-join-style behavior when a key (nums=6) is missing from one side. Data is the author's own inline DATALINES, unchanged. Note: the second PROC PRINT step's title3/title4 (set inside the PROC step body) do not appear in the captured listing - this is a genuine Jenner parser gap (mid-step TITLE3+ statements are discarded), filed separately as a regression test; the pinned expected files reflect Jenner's actual (current) output, not the fuller listing real SAS 9.4 would produce."
+}

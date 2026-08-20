@@ -1,0 +1,15 @@
+{
+  "_captured_at": "2026-08-20T07:40:00Z",
+  "_captured_run_id": "r_a1a2cb812e3e471ba241f7ae6e2065dd",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: FORMAT animal defined (5 ranges).",
+    "NOTE: FORMAT yesno defined (2 ranges).",
+    "NOTE: FORMAT years defined (4 ranges).",
+    "NOTE: Wrote one (5 rows, 2 columns).",
+    "NOTE: Wrote years (9 rows, 1 columns)."
+  ],
+  "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}
